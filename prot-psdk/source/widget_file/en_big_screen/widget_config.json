@@ -1,0 +1,337 @@
+{
+  "version": {
+    "major": 1,
+    "minor": 0
+  },
+  "main_interface": {
+    "floating_window": {
+      "is_enable": true
+    },
+    "speaker": {
+      "is_enable_tts": true,
+      "is_enable_voice": true
+    },
+    "widget_list": [
+      {
+        "widget_index": 0,
+        "widget_type": "list",
+        "widget_name": "Music Control",
+        "list_item": [
+          {
+            "item_name": "Music Prev",
+            "icon_file_set": {
+              "icon_file_name_selected": "last_song.png",
+              "icon_file_name_unselected": "last_song.png"
+            }
+          },
+          {
+            "item_name": "Music Next",
+            "icon_file_set": {
+              "icon_file_name_selected": "next_song.png",
+              "icon_file_name_unselected": "next_song.png"
+            }
+          },
+          {
+            "item_name": "Play",
+            "icon_file_set": {
+              "icon_file_name_selected": "music_play.png",
+              "icon_file_name_unselected": "music_play.png"
+            }
+          },
+          {
+            "item_name": "Stop",
+            "icon_file_set": {
+              "icon_file_name_selected": "music_stop.png",
+              "icon_file_name_unselected": "music_stop.png"
+            }
+          },
+          {
+            "item_name": "Music Control",
+            "icon_file_set": {
+              "icon_file_name_selected": "music_ctr.png",
+              "icon_file_name_unselected": "music_ctr.png"
+            }
+          }
+        ],
+        "customize_rc_buttons_config": {
+        "is_enable": true,
+        "mapping_config_display_order": 0
+        }
+      },
+      {
+        "widget_index": 1,
+        "widget_type": "list",
+        "widget_name": "Red-Blue Flash",
+        "list_item": [
+          {
+            "item_name": "Red-Blue Off",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_off2.png",
+              "icon_file_name_unselected": "gl_alarm_off2.png"
+            }
+          },
+          {
+            "item_name": "Red-Blue",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on3.png",
+              "icon_file_name_unselected": "gl_alarm_on3.png"
+            }
+          },
+          {
+            "item_name": "Red",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on4.png",
+              "icon_file_name_unselected": "gl_alarm_on4.png"     
+            }
+          },
+          {
+            "item_name": "Blue",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on2.png",
+              "icon_file_name_unselected": "gl_alarm_on2.png"
+            }
+          },
+          {
+            "item_name": "Yellow",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on5.png",
+              "icon_file_name_unselected": "gl_alarm_on5.png"
+            }
+          },
+          {
+            "item_name": "green",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on6.png",
+              "icon_file_name_unselected": "gl_alarm_on6.png"
+            }
+          }
+        ],
+        "customize_rc_buttons_config": {
+        "is_enable": true,
+        "mapping_config_display_order": 1
+        }
+      },
+      {
+        "widget_index": 2,
+        "widget_type": "list",
+        "widget_name": "Record/Stream switch",
+        "list_item": [
+          {
+            "item_name": "Record",
+            "icon_file_set": {
+              "icon_file_name_selected": "record_on.png",
+              "icon_file_name_unselected": "record_on.png"
+            }
+          },
+          {
+            "item_name": "Stream",
+            "icon_file_set": {
+              "icon_file_name_selected": "realtime_on.png",
+              "icon_file_name_unselected": "realtime_on.png"
+            }
+          }
+        ],
+        "customize_rc_buttons_config": {
+        "is_enable": true,
+        "mapping_config_display_order": 2
+        }
+      }
+    ]
+    
+  },
+  "config_interface": {
+    "text_input_box": {
+      "is_enable": true
+    },
+    "widget_list": [
+      {
+        "widget_index": 3,
+        "widget_type": "scale",
+        "widget_name": "Volume",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 3,
+          "button_value_step_length": 10
+        }
+      },
+      {
+        "widget_index": 4,
+        "widget_type": "switch",
+        "widget_name": "Cycle Play",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 4
+        }
+      },
+      {
+        "widget_index": 5,
+        "widget_type": "button",
+        "widget_name": "Delete Current Music",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 5
+        }
+      },
+      {
+        "widget_index": 6,
+            "widget_type": "list",
+            "widget_name": "TTS Tone",
+            "list_item": [
+              {
+                "item_name": "Mandarin Chinese female voice"
+              },
+              {
+                  "item_name": "Mandarin Chinese male voice"
+              },
+              {
+                  "item_name": "British English"
+              },
+              {
+                  "item_name": "American English"
+              },
+              {
+                  "item_name": "Northeastern dialect"
+              },
+              {
+                  "item_name": "Cantonese"
+              },
+              {
+                  "item_name": "Hunan dialect"
+              },
+              {
+                  "item_name": "Henan dialect"
+              },
+              {
+                  "item_name": "Sichuan dialect"
+              },     
+              {
+                  "item_name": "Shaanxi dialect"
+              },
+              {
+                  "item_name": "German"
+              },
+              {
+                  "item_name": "Caribbean English"
+              },
+              {
+                  "item_name": "England English"
+              },
+              {
+                  "item_name": "Scottish English"
+              },
+              {
+                  "item_name": "Lancaster"
+              },
+              {
+                  "item_name": "Central England English"
+              },
+              {
+                  "item_name": "Received_Pronunciation"
+              },
+              {
+                  "item_name": "America"
+              },
+              {
+                  "item_name": "Belgian"
+              },
+              {
+                  "item_name": "Swedish"
+              },
+              {
+                  "item_name": "French"
+              },
+              {
+                  "item_name": "Italian"
+              },
+              {
+                  "item_name": "Japanese"
+              },
+              {
+                  "item_name": "Russian"
+              },
+              {
+                  "item_name": "latvian"
+              },
+              {
+                  "item_name": "Spanish"
+              },
+              {
+                  "item_name": "Latin American Spanish"
+              },
+              {
+                  "item_name": "Arabic"
+              },
+              {
+                  "item_name": "Portuguese"
+              },
+              {
+                  "item_name": "Brazilian"
+              },
+              {
+                  "item_name": "Polish"
+              },
+              {
+                  "item_name": "Korean"
+              },
+              {
+                  "item_name": "Burmese"
+              },
+              {
+                  "item_name": "Hindi"
+              },
+              {
+                  "item_name": "Vietnamese"
+              }
+            ],
+            "customize_rc_buttons_config": {
+              "is_enable": true,
+              "mapping_config_display_order": 6
+            }
+      },
+      {
+        "widget_index": 7,
+         "widget_type": "list",
+         "widget_name": "TTS Speed",
+         "list_item": [
+           {
+             "item_name": "SLOWEST"
+           },
+           {
+             "item_name": "SLOWER"
+           },
+           {
+             "item_name": "NORMAL"
+           },
+           {
+             "item_name": "FASTER"
+           },
+           {
+             "item_name": "FASTEST"
+           }
+         ],
+         "customize_rc_buttons_config": {
+           "is_enable": true,
+           "mapping_config_display_order": 7
+         }
+       },
+       {
+        "widget_index": 8,
+        "widget_type": "switch",
+        "widget_name": "breathing light",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 8
+        }
+      },
+      {
+        "widget_index": 9,
+        "widget_type": "switch",
+        "widget_name": "Startup Tone",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 9
+        }
+      }
+    ]
+  }
+}

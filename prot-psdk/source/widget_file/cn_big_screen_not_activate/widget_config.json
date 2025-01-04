@@ -1,0 +1,32 @@
+{
+  "version": {
+    "major": 1,
+    "minor": 0
+  },
+  "main_interface": {
+    "floating_window": {
+      "is_enable": true
+    },
+    "widget_list": [
+
+    ]
+  },
+  "config_interface": {
+    "text_input_box": {
+      "widget_name": "激活",
+      "placeholder_text": "请按照说明书获取激活码。",
+      "is_enable": true
+    },
+    "widget_list": [
+		{
+			"widget_index": 0,
+			"widget_type": "button",
+			"widget_name": "请输入激活码,点击“发送”按钮进行激活",
+			"customize_rc_buttons_config": {
+			"is_enable": true,
+			"mapping_config_display_order": 0
+			}
+		}
+    ]
+  }
+}

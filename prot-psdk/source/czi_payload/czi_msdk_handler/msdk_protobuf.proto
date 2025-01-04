@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+message CziProtobufInfo
+{
+    string activation_timestamp = 1;
+    string model = 2;
+    string sn = 3;
+    string software_version = 4;
+    string hardware_version = 5;
+    int32 light_code = 6;   // 警灯爆闪灯码；0x00关，0x01红蓝，0x02红，0x03蓝，0x04黄，0x05绿
+    int32 gimbal_angle = 7;   // 云台角度 0-90
+    int32 master_volume= 8;  // 当前主通道音量 0-100
+    int32 background_volume= 9;  // 当前背景音音量 0-100
+    int32 megaphone_switch = 10;  // 喊话器开关 播放状态码
+    int32 megaphone_model = 11;  // 喊话器模式 0x10 tts; 0x21 音乐播放模式; 0x29实时喊话
+    int32 loop_model = 12;  // 播放循环模式 循环状态码
+    int32 isListening = 13; // 监听状态 播放状态码
+    int32 startup_mute = 14;   // F1 开启 F0 关闭
+    int32 loss_action = 15;    // F1 继续 F0 停止
+    int32 breath_light = 16;    // 1 开 0 关
+    int32 tts_voice = 17;    // 
+    int32 tts_speed = 18;    // 
+}

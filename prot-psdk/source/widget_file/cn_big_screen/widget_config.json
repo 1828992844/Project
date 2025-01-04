@@ -1,0 +1,337 @@
+{
+  "version": {
+    "major": 1,
+    "minor": 0
+  },
+  "main_interface": {
+    "floating_window": {
+      "is_enable": true
+    },
+    "speaker": {
+      "is_enable_tts": true,
+      "is_enable_voice": true
+    },
+    "widget_list": [
+      {
+        "widget_index": 0,
+        "widget_type": "list",
+        "widget_name": "媒体控制",
+        "list_item": [
+          {
+            "item_name": "上一首",
+            "icon_file_set": {
+              "icon_file_name_selected": "last_song.png",
+              "icon_file_name_unselected": "last_song.png"
+            }
+          },
+          {
+            "item_name": "下一首",
+            "icon_file_set": {
+              "icon_file_name_selected": "next_song.png",
+              "icon_file_name_unselected": "next_song.png"
+            }
+          },
+          {
+            "item_name": "播放",
+            "icon_file_set": {
+              "icon_file_name_selected": "music_play.png",
+              "icon_file_name_unselected": "music_play.png"
+            }
+          },
+          {
+            "item_name": "停止",
+            "icon_file_set": {
+              "icon_file_name_selected": "music_stop.png",
+              "icon_file_name_unselected": "music_stop.png"
+            }
+          },
+          {
+            "item_name": "媒体控制",
+            "icon_file_set": {
+              "icon_file_name_selected": "music_ctr.png",
+              "icon_file_name_unselected": "music_ctr.png"
+            }
+          }
+        ],
+        "customize_rc_buttons_config": {
+        "is_enable": true,
+        "mapping_config_display_order": 0
+        }
+      },
+      {
+        "widget_index": 1,
+        "widget_type": "list",
+        "widget_name": "红蓝爆闪",
+        "list_item": [
+          {
+            "item_name": "关闭",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_off2.png",
+              "icon_file_name_unselected": "gl_alarm_off2.png"
+            }
+          },
+          {
+            "item_name": "红蓝爆闪",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on3.png",
+              "icon_file_name_unselected": "gl_alarm_on3.png"
+            }
+          },
+          {
+            "item_name": "红爆闪",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on4.png",
+              "icon_file_name_unselected": "gl_alarm_on4.png"
+            }
+          },
+          {
+            "item_name": "蓝爆闪",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on2.png",
+              "icon_file_name_unselected": "gl_alarm_on2.png"
+            }
+          },
+          {
+            "item_name": "黄爆闪",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on5.png",
+              "icon_file_name_unselected": "gl_alarm_on5.png"
+            }
+          },
+          {
+            "item_name": "绿爆闪",
+            "icon_file_set": {
+              "icon_file_name_selected": "gl_alarm_on6.png",
+              "icon_file_name_unselected": "gl_alarm_on6.png"
+            }
+          }
+        ],
+        "customize_rc_buttons_config": {
+        "is_enable": true,
+        "mapping_config_display_order": 1
+        }
+      },
+      {
+        "widget_index": 2,
+        "widget_type": "list",
+        "widget_name": "录音/实时切换",
+        "list_item": [
+          {
+            "item_name": "录音广播",
+            "icon_file_set": {
+              "icon_file_name_selected": "record_on.png",
+              "icon_file_name_unselected": "record_on.png"
+            }
+          },
+          {
+            "item_name": "实时广播",
+            "icon_file_set": {
+              "icon_file_name_selected": "realtime_on.png",
+              "icon_file_name_unselected": "realtime_on.png"
+            }
+          }
+        ],
+        "customize_rc_buttons_config": {
+        "is_enable": true,
+        "mapping_config_display_order": 2
+        }
+      }
+    ]
+  },
+
+  "config_interface": {
+    "text_input_box": {
+      "is_enable": true
+    },
+    "widget_list": [
+      {
+        "widget_index": 3,
+        "widget_type": "scale",
+        "widget_name": "音量",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 3,
+          "button_value_step_length": 10
+        }
+      },
+      {
+        "widget_index": 4,
+        "widget_type": "switch",
+        "widget_name": "循环播放",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 4
+        }
+      },
+      {
+        "widget_index": 5,
+        "widget_type": "button",
+        "widget_name": "删除当前音频",
+        "customize_rc_buttons_config": {
+          "is_enable": true,
+          "mapping_config_display_order": 5
+        }
+      },
+      {
+        "widget_index": 6,
+          "widget_type": "list",
+          "widget_name": "TTS人声",
+          "list_item": [
+            {
+              "item_name": "普通话女"
+            },
+            {
+                "item_name": "普通话男"
+            },
+            {
+                "item_name": "英式英语"
+            },
+            {
+                "item_name": "美式英语"
+            },
+            {
+                "item_name": "东北话"
+            },
+            {
+                "item_name": "广东话"
+            },
+            {
+                "item_name": "湖南话"
+            },
+            {
+                "item_name": "河南话"
+            },
+            {
+                "item_name": "四川话"
+            },
+            {
+                "item_name": "陕西话"
+            },
+            {
+                "item_name": "德语"
+            },
+            {
+                "item_name": "加勒比英语"
+            },
+            {
+                "item_name": "英格兰英语"
+            },
+            {
+                "item_name": "苏格兰英语"
+            },
+            {
+                "item_name": "Lancaster"
+            },
+            {
+                "item_name": "英格兰中部英语"
+            },
+            {
+                "item_name": "Received_Pronunciation"
+            },
+            {
+                "item_name": "America"
+            },
+            {
+                "item_name": "比利时语"
+            },
+            {
+                "item_name": "瑞士语"
+            },
+            {
+                "item_name": "法语"
+            },
+            {
+                "item_name": "意大利语"
+            },
+            {
+                "item_name": "日语"
+            },
+            {
+                "item_name": "俄语"
+            },
+            {
+                "item_name": "拉脱维亚语"
+            },
+            {
+                "item_name": "西班牙语"
+            },
+            {
+                "item_name": "拉丁美西班牙语"
+            },
+            {
+                "item_name": "阿拉伯语"
+            },
+            {
+                "item_name": "葡萄牙语"
+            },
+            {
+                "item_name": "巴西语"
+            },
+            {
+                "item_name": "波兰语"
+            },
+            {
+                "item_name": "韩语"
+            },
+            {
+                "item_name": "缅甸语"
+            },
+            {
+                "item_name": "印地语"
+            },
+            {
+                "item_name": "越南语"
+            }
+          ],
+          "customize_rc_buttons_config": {
+            "is_enable": true,
+            "mapping_config_display_order": 6
+          }
+        },
+        {
+         "widget_index": 7,
+          "widget_type": "list",
+          "widget_name": "TTS语速",
+          "list_item": [
+            {
+              "item_name": "最慢"
+            },
+            {
+              "item_name": "慢"
+            },
+            {
+              "item_name": "正常"
+            },
+            {
+              "item_name": "快"
+            },
+            {
+              "item_name": "最快"
+            }
+          ],
+          "customize_rc_buttons_config": {
+            "is_enable": true,
+            "mapping_config_display_order": 7
+          }
+        }, 
+        {
+          "widget_index": 8,
+          "widget_type": "switch",
+          "widget_name": "呼吸灯",
+          "customize_rc_buttons_config": {
+            "is_enable": true,
+            "mapping_config_display_order": 8
+          }
+        },
+        {
+          "widget_index": 9,
+          "widget_type": "switch",
+          "widget_name": "版本播报",
+          "customize_rc_buttons_config": {
+            "is_enable": true,
+            "mapping_config_display_order": 9
+          }
+        }
+    ]
+  }
+}
